@@ -1,12 +1,11 @@
 import React from "react"
-import { Link } from "gatsby"
+import Layout from "../components/Layout"
 
 const Error = () => {
   return (
-    <div>
+    <Layout>
       <h1>404</h1>
-      <Link to="/">Home Page</Link>
-    </div>
+    </Layout>
   )
 }
 
